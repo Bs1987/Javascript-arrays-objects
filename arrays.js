@@ -44,3 +44,7 @@ console.log(valuesExFive);
 // 6c. Log de de array in de terminal                                                       // geeft [ 'lasagne bladen', 'knoflook', 'spinazie' ]
 // 6d. Log de lengte van de array in de terminal                                            // geeft 3
 // ==========================================
+const ingredients = ["Puff pastry", "Garlic", "Spinach"];
+ingredients[0] = "Lasagne leaves";
+console.log(ingredients);
+console.log(ingredients.length);
