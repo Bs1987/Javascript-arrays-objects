@@ -25,12 +25,18 @@ const product = {
 };
 
 // 3a. Log de naam van de serie in de terminal.
+console.log(product.series)
 
 // 3b. Overschrijf de oude waarde van de property color ("creme") naar "roze". Log het object in de terminal om te checken of het gelukt is.
+console.log(product.color);
+product.color = "roze";
+console.log(product.color);
 
 // 3c. Log de tweede materiaalsoort ("kunststof") in de terminal
+console.log(product.material[1]);
 
-// 1d. Log de afmetingen (b-h-d) in de terminal
+// 3d. Log de afmetingen (b-h-d) in de terminal
+console.log(product["b-h-d"])
 
 
 // === Opdracht 4 ===
