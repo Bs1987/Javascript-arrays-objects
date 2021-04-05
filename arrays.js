@@ -32,6 +32,10 @@ console.log(colors[1]);
 // 5b. Overschrijf één van de items in de array dusdanig dat de cijferreeks netjes doorloopt (je mag de declaratie op de vorige regel niet aanpassen).
 // 5c. Log de array in de terminal                                                          // geeft [ 21, 22, 23, 24, 25 ]
 // ==========================================
+const valuesExFive = [21, 22, 23, 25, 25];
+console.log(valuesExFive);
+valuesExFive[3] = 24;
+console.log(valuesExFive);
 
 
 // ==========================================
