@@ -11,7 +11,7 @@ console.log(person);
 // ===  Opdracht 2 ===
 // Zorg ervoor dat de volgende string in de terminal wordt gelogd:
 // "Hoi! Ik ben <voornaam>, ik ben <leeftijd> jaar oud."
-
+console.log("Hoi! Ik ben " + person.firstName + ", ik ben " + person.age + " jaar oud.")
 
 // === Opdracht 3: bekijk het volgende object ===
 
