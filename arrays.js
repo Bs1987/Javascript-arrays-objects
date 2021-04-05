@@ -14,7 +14,8 @@ console.log(hobbies);
 // 3a. Declareer een variabele met daarin een array met de waardes 3, 4, 5, 7 en 2
 // 3b. Zorg er nu voor dat je de eerste waarde uit die array in de terminal logt             // geeft 3
 // ==========================================
-
+const values = [3, 4, 5, 7, 2];
+console.log(values[0]);
 
 // ==========================================
 // 4a. Declareer een variabele met daarin een array met de waardes groen, geel, rood, paars, blauw en oranje.
